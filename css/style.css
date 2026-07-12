@@ -1,0 +1,329 @@
+:root {
+  --primary-color:#001948; 
+  --secondary-color:#dfa408;  
+  --tertiary-color: #f1f1f1;    
+}
+.nav{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: var(--primary-color);
+    font-size: larger;
+    
+
+    .nav-link{
+         padding-top: 2rem;
+       color: var(--secondary-color);
+    }
+    .nav-link:hover{
+        color: #ffff;
+    }
+
+}
+.navWrapper {
+  width: 100%;
+  padding: 0 30px;
+  background-color: var(--primary-color);
+}
+
+.navLogo {
+  height: 75px;
+  border-radius: 45%;
+  
+}
+.heroSubtitle {
+  max-width: 420px;
+  color: #c9d0dc;
+  font-size: 0.95rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-hero-solid {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.btn-hero-solid:hover {
+  transform: translateY(-2px);
+  color: var(--primary-color);
+}
+
+.btn-hero-outline {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-hero-outline:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.homePageImageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.homePageImage1{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+   display: block;
+
+
+
+}
+  .homePageImageWrap {
+  position: relative;
+
+}
+.txt0 {
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  padding: 4px 25px;
+  border-radius: 57px;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.defCyberSft{
+  position: relative;
+  max-width: 800px;
+  padding-top: 130px;
+  padding-left: 150px;
+  margin-left: -90px;
+  color: var(--primary-color);
+
+p {
+  color: black;
+}
+}
+.defCyberSft i {
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+}
+.Importance{
+  max-width: 800px;
+  padding-top: 30px;
+  padding-left: 150px;
+  margin-left: -90px;
+  color: var(--primary-color);
+}
+.Importance i {
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+  
+}
+.statistics {
+  position:relative ;
+  top:0;
+  margin-left:67%;
+  max-width: 450px;
+  background-color: var(--tertiary-color);
+  margin-top:-400px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+ border-style:groove ;
+  p{
+    font-size:large;
+  }
+
+}
+.statistics h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 55px;
+  color: var(--primary-color);
+}
+.statistics i {
+  color: var(--secondary-color);
+}
+.Infos {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+
+  background-color: var(--tertiary-color);
+}
+.Infos .container{
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.Infos h3{
+  color: var(--secondary-color);
+}
+.btn-infos-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+  padding: 0.7rem 1.5rem;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-infos-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.infos-icon-badge {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.infos-icon-badge i {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.btn-infos-link:hover i {
+  transform: translateX(4px);
+}
+.categories {
+  background-color: #D2E3FC;
+  padding-top: 20px;
+  color: white;
+}
+.categories h3 {
+  text-align: center;
+  margin-top: -60px;
+  padding-bottom: 15px;
+}
+.categories i {
+  font-size: xx-large;
+  border-radius: 50%;
+  margin-left: 250px;
+  
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+  padding: 25px;
+  background-color: var(--primary-color);
+}
+
+.accordion-flush .accordion-item {
+  background-color: #1a3760 ;
+  border: none;
+  margin-bottom: 0.6rem;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.accordion-flush .accordion-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(57, 255, 206, 0.5);
+  box-shadow: none;
+}
+
+.accordion-flush .accordion-button:not(.collapsed) {
+  background-color: #fbdde5;
+  color: #398fff;
+  box-shadow: none;
+}
+
+.accordion-flush .accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-flush .accordion-button::after {
+  filter: hue-rotate(120deg) brightness(1.5);
+}
+
+.accordion-flush .accordion-body {
+  background-color: #fdeef2;
+  color: #333;
+  line-height: 1.7;
+}
+.promo-column {
+  border-left: 2px solid var(--secondary-color);
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.promo-title {
+  font-weight: 700;
+  font-size: xx-large;
+  margin-bottom: 0.3rem;
+  color: var(--primary-color);
+}
+.promo-item a {
+  color: white;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  padding: 7px;
+  border-radius: 17px;
+}
+
+.promo-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+.site-footer {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  padding: 2.5rem 0 1.2rem;
+}
+
+.site-footer h5 {
+  color: var(--secondary-color);
+  margin-bottom: 0.8rem;
+}
+
+.site-footer a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--secondary-color);
+}
+
+.site-footer hr {
+  border-color: rgba(255,255,255,0.15);
+  margin: 1.5rem 0 1rem;
+}
