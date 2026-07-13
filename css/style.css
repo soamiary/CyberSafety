@@ -409,7 +409,7 @@
   
 }
 .aboutTextHeader h1{
-  font-family: Merriweather;
+  font-family: "Merriweather", serif;
   font-style: italic;
   color: white;
   font-weight: 500;
@@ -425,4 +425,29 @@
   font-size: 57px;
   margin-bottom: 5px;
   
+}
+.summaryWrap{
+  position: relative;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.summary{
+  position: relative;
+  margin-top: 20px;
+  background-color: #E0BAD7;
+  padding: 30px;
+  border-radius: 7px ;
+}
+.summary h2{
+  padding: 15px;
+  font-family: "Merriweather", serif;
+  color: var(--primary-color);
+}
+.summary a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.summary a:hover{
+  color: var(--secondary-color);
 }
