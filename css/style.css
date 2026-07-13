@@ -451,3 +451,28 @@
 .summary a:hover{
   color: var(--secondary-color);
 }
+.contactProp{
+  position: relative;
+  background-color: var(--tertiary-color);
+  max-width: 30%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-left: 800px;
+  margin-top:-200px;
+  border-left:  7px solid var(--secondary-color);
+
+}
+#purposeSection{
+  position: relative;
+  background-color: var(--tertiary-color);
+  margin-top: 200px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+#purposeSection h2{
+  color: var(--primary-color);
+  font-family:  "Merriweather", serif;
+}
