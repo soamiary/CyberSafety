@@ -668,4 +668,68 @@ font-family:"Merriweather", serif ;
 .bio p{
 color: grey;
 }
+#academicSection{
+  position: relative;
+  background-color: var(--tertiary-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#academicSection i {
+position:relative ;
+font-size: 50px;
+margin-left: 500px;
+}
+#academicSection h5 {
+ margin-top: 27px;
+ margin-left: 20px;
+ color: var(--secondary-color);
+ background-color: var(--primary-color);
+ width: 20%;
+ padding-left: 15px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ border-radius: 15px;
+}
+#academicSection h3{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: var(--primary-color);
+}
+#academicSection ul li::marker {
+  color: var(--secondary-color);
+}
+#academicSection a {
+  text-decoration: none;
+  color: white;
+  background-color: #001948;
+  width: 20%;
+ padding-left: 35px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ border-radius: 15px;
+ margin-left: 10px;
+}
+#academicSection a:hover {
+color: var(--secondary-color);
+}
+@media (max-width: 768px) {
+  .profilePic {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 1rem;
+  }
 
+  #presentationSection .col-md-8 {
+    text-align: center !important;
+  }
+
+  #academicSection,
+  .academicCard {
+    padding: 1.8rem 1.2rem;
+    margin: 0 15px;
+  }
+
+  #academicSection h3 {
+    font-size: 1.2rem;
+  }
+}
