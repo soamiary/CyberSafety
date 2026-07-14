@@ -596,3 +596,76 @@
     transform: translateX(0);
   }
 }
+@media (max-width: 768px) {
+  .aboutTextHeader {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  .contactProp {
+    margin-left: 20px;
+    max-width: calc(100% - 40px);
+  }
+  .summaryWrap {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+#pageSection {
+  position: relative;
+  border-color: var(--tertiary-color);
+  width: 100%;
+  text-align: center;
+}
+
+#pageSection i {
+  display: block;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin: 0 auto 1rem;
+}
+
+#pageSection h2 {
+  color: var(--primary-color);
+}
+
+#pageSection p {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+}
+#creatorSection{
+  position: relative;
+}
+#presentationSection{
+  position: relative;
+}
+.profilePic img{
+width: 20px;
+height: 50px;
+object-fit: cover;
+border-radius: 45%;
+}
+.profilePic {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 250px;
+height: 250px;
+border: 7px solid var(--secondary-color);
+border-radius: 50%;
+
+margin-bottom: 50px;
+object-fit: cover;
+background-color:#f4e1ac ;
+}
+.bio {
+  position: relative;
+  padding-left: 22px;
+  border-left: 2px solid var(--primary-color);
+}
+.bio h2 {
+color: var(--primary-color);
+font-family:"Merriweather", serif ;
+}
+.bio p{
+color: grey;
+}
+
