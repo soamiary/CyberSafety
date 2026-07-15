@@ -818,3 +818,33 @@ color: var(--secondary-color);
     white-space: normal;
   }
 }
+.phishingHeaderWrap{
+  position: relative;
+  background-color: var(--tertiary-color);
+  padding-bottom: 20px;
+}
+.phishingImage{
+  position: relative;
+  width: 45%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.phishingHeaderText{
+  position: relative;
+  padding-left: 10px;
+  border-left: 7px solid var(--secondary-color);
+  
+}
+.phishingHeaderText h2{
+  color: var(--primary-color);
+  font-family: "Merriweather", serif;
+
+}
+.phishingHeaderText h4{
+  color: black;
+}
+.phishingHeaderText p{
+  color: grey;
+}
