@@ -1553,3 +1553,285 @@ color: var(--secondary-color);
 }
 
 }
+.securityHeaderWrap{
+  position:relative;
+  background-color:var(--tertiary-color);
+  padding-bottom:20px;
+}
+
+.securityImage{
+  position:relative;
+  width:45%;
+  height:auto;
+  object-fit:cover;
+  margin-left:50px;
+  margin-top:10px;
+}
+
+.securityHeaderText{
+  position:relative;
+  padding-left:10px;
+  border-left:7px solid var(--secondary-color);
+}
+
+.securityHeaderText h2{
+  color:var(--primary-color);
+  font-family:"Merriweather", serif;
+}
+
+.securityHeaderText h2 i{
+  color:var(--secondary-color);
+  margin-right:.5rem;
+}
+
+.securityHeaderText h4{
+  color:black;
+}
+
+.securityHeaderText p{
+  color:grey;
+}
+
+
+.securityIntro{
+  position:relative;
+  padding:70px 0;
+}
+
+.securityIntro h2{
+  color:var(--primary-color);
+  font-family:"Merriweather", serif;
+}
+
+.securityIntro h2 i{
+  color:var(--secondary-color);
+  margin-right:.5rem;
+}
+
+.securityIntro p{
+  color:#555;
+  line-height:1.8;
+}
+
+.securityIntro img{
+  border-radius:15px;
+}
+
+
+
+.securityCards{
+  position:relative;
+  background-color:var(--tertiary-color);
+  padding:70px 0;
+  text-align:center;
+}
+
+.securityCards h2{
+  color:var(--primary-color);
+  font-family:"Merriweather", serif;
+  margin-bottom:40px;
+}
+
+
+.securityCard{
+  background-color:white;
+  border-radius:12px;
+  padding:25px 18px;
+  height:100%;
+  transition:.3s ease;
+}
+
+.securityCard:hover{
+  transform:translateY(-8px);
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+
+.securityIcon{
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background-color:var(--primary-color);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 16px;
+}
+
+.securityIcon i{
+  color:var(--secondary-color);
+  font-size:1.3rem;
+}
+
+
+.securityCard h5{
+  color:var(--primary-color);
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.securityCard p{
+  color:#555;
+  font-size:.9rem;
+  margin-bottom:0;
+  line-height:1.7;
+}
+
+
+
+.securitySteps{
+  position:relative;
+  padding:70px 0;
+}
+
+.securitySteps h2{
+  color:var(--primary-color);
+  font-family:"Merriweather", serif;
+  text-align:center;
+  margin-bottom:40px;
+}
+
+
+.securitySteps ul{
+  list-style:none;
+  padding-left:0;
+}
+
+.securitySteps li{
+  background-color:var(--tertiary-color);
+  padding:18px 20px;
+  margin-bottom:15px;
+  border-left:5px solid var(--secondary-color);
+  border-radius:8px;
+  color:#555;
+  transition:.3s ease;
+}
+
+.securitySteps li:hover{
+  transform:translateX(8px);
+}
+
+
+
+.securityTable{
+  position:relative;
+  background-color:var(--tertiary-color);
+  padding:70px 0;
+}
+
+.securityTable h2{
+  color:var(--primary-color);
+  font-family:"Merriweather", serif;
+  text-align:center;
+  margin-bottom:35px;
+}
+
+
+.securityTable table{
+  background-color:white;
+}
+
+.securityTable thead{
+  background-color:var(--primary-color);
+  color:var(--secondary-color);
+}
+
+.securityTable th,
+.securityTable td{
+  padding:15px;
+}
+
+.securityTable tbody td{
+  color:#555;
+}
+
+
+
+.securityWarning{
+  position:relative;
+  padding:80px 0;
+  text-align:center;
+}
+
+.securityWarning h2{
+  color:var(--primary-color);
+  font-family:"Merriweather", serif;
+  margin-bottom:20px;
+}
+
+.securityWarning p{
+  color:#555;
+  max-width:650px;
+  margin:0 auto 30px;
+  line-height:1.8;
+}
+
+
+
+@media(max-width:768px){
+
+.securityImage{
+  width:90%;
+  margin-left:5%;
+  margin-top:15px;
+}
+
+.securityHeaderText{
+  margin:30px 20px 0;
+}
+
+.securityHeaderText h2{
+  font-size:1.5rem;
+}
+
+.securityIntro{
+  padding:50px 20px;
+}
+
+.securityIntro .row{
+  row-gap:30px;
+}
+
+
+.securityCards{
+  padding:50px 20px;
+}
+
+.securityCard{
+  padding:20px 15px;
+}
+
+.securityCard:hover{
+  transform:none;
+}
+
+
+.securitySteps{
+  padding:50px 20px;
+}
+
+.securitySteps li:hover{
+  transform:none;
+}
+
+
+.securityTable{
+  padding:50px 20px;
+}
+
+.securityTable table{
+  font-size:.85rem;
+}
+
+
+.securityTable th,
+.securityTable td{
+  padding:10px;
+}
+
+
+.securityWarning{
+  padding:60px 20px;
+}
+
+}
