@@ -848,3 +848,175 @@ color: var(--secondary-color);
 .phishingHeaderText p{
   color: grey;
 }
+
+
+.typeSection{
+  position: relative ;
+  margin-top: 50px;
+}
+.typeSection h1{
+  color: var(--primary-color);
+  font-family:  "Merriweather", serif;
+  margin-left: 40%;
+
+}
+.typeSection h5{
+  color: #555;
+   margin-left: 40%;
+}
+.accordion-body{
+  background-color: var(--tertiary-color);
+  border-top: 7px solid var(--primary-color);
+}
+.accordion-collapse{
+  background-color: var(--secondary-color);
+}
+.accordion-button{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.redFlagsSection {
+  position: relative;
+  background-color: var(--tertiary-color);
+  padding: 70px 0;
+  text-align: center;
+}
+.redFlagsSection h2 {
+  color: var(--primary-color);
+  font-family: "Merriweather", serif;
+}
+.redFlagsSection .sectionLede {
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+.redFlagCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px 18px;
+  height: 100%;
+}
+.redFlagIcon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+.redFlagIcon i {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+.redFlagCard h5 {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.redFlagCard p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.anatomySection {
+  position: relative;
+  padding: 70px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+.anatomySection h2 {
+  color: var(--primary-color);
+  font-family: "Merriweather", serif;
+}
+.anatomySection .sectionLede {
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+.mockEmail {
+  max-width: 620px;
+  margin: 0 auto;
+  background-color: var(--tertiary-color);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.mockEmailBar {
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  color: white;
+  font-size: 0.85rem;
+}
+.mockEmailBody {
+  padding: 25px 20px;
+  background-color: #ffffff;
+}
+.mockEmailLine {
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+.flagLine {
+  background-color: #fbe4c8;
+  border-left: 4px solid var(--secondary-color);
+}
+.flagLabel {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-left: 8px;
+}
+
+.timelineSection {
+  position: relative;
+  padding: 70px 0;
+  background-color: var(--tertiary-color);
+  text-align: center;
+}
+.timelineSection h2 {
+  color: var(--primary-color);
+  font-family: "Merriweather", serif;
+}
+.timelineSection .sectionLede {
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+.timelineSection .pageTimelineWrap {
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .typeSection h1,
+  .typeSection h5 {
+    margin-left: 0;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .redFlagsSection,
+  .anatomySection,
+  .timelineSection {
+    padding: 40px 0;
+  }
+
+  .redFlagCard {
+    padding: 20px 14px;
+  }
+
+  .mockEmail {
+    margin: 0 15px;
+  }
+
+  .mockEmailBody {
+    padding: 18px 15px;
+  }
+}
